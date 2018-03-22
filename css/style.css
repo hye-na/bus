@@ -1,0 +1,59 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family:'BlinkMacSystemFont';
+  font-size: 2em;
+}
+
+
+h2 {
+  background-color: #0000; 
+  font-family: 'BlinkMacSystemFont';
+  font-size: 17px;
+  font-weight: bold; /*Not working here*/
+    
+}
+
+
+h3 {
+  background-color: #333; 
+  font-family: 'BlinkMacSystemFont';
+  font-size: 17px;
+}
+
+
+table {
+  table-layout: fixed;
+    width : 375px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: 100%;
+  border-collapse: collapse;
+  border: 1px solid #8E8E93;
+}
+
+
+tbody td {
+  text-align: center;
+}
+
+    
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+th, td {
+  padding: 20px;
+
+
+}
+
+.td:hover {
+    background-color: darkgrey;
+}

@@ -2,35 +2,76 @@
   box-sizing: border-box;
 }
 
+h0, h1, h2, h3 {
+     font-family: 'Roboto', sans-serif;
+}
+
+
 h1 {
-  font-family:'BlinkMacSystemFont';
-  font-size: 2em;
+  font-size: 1.5em;  /*top of screen nav*/
+}
+
+h2 {   /*black nav above list*/
+    background-color: black;  
+    color: white;
+    font-size: 20px;  
 }
 
 
-h2 {
-  background-color: #0000; 
-  font-family: 'BlinkMacSystemFont';
-  font-size: 20px;
-  font-weight: bold; /*Not working here*/
+
+
+.topnavi {
+    text-align: center;
+    align-items: baseline;
+        
+}
+
+.arrow {
+    float: left;
+}
+
+.hbar {    /*need help with hamburger bar alignment*/
     
+
 }
 
 
-h3 {
-  font-family: 'BlinkMacSystemFont';
-  font-size: 17px;
+
+
+
+
+
+
+
+
+///*table body*////
+
+
+.screen {
+    background-image: url(../images/bb_screen.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+
+
+.content {
+    width : 375px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: auto;
 }
 
 
 table {
   table-layout: fixed;
-    width : 375px;
-    margin-left: 50%;
-    margin-right: 50%;
     margin: auto;
-  border-collapse: collapse;
-  border: 1px solid #8E8E93;
+    border-collapse: collapse;
+    border-width: 5px solid #8E8E93;
+    border-bottom-width: 1px;
 }
 
 
@@ -53,6 +94,12 @@ th, td {
 
 }
 
-.td:hover {
-    background-color: darkgrey;
+
+
+
+
+
+
+.content:hover {
+    background-color: lightpink;
 }

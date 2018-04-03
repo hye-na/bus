@@ -6,31 +6,58 @@ h0, h1, h2, h3 {
      font-family: 'Roboto', sans-serif;
 }
 
+.mainlist, .topnavi, .map, .blacknavi {
+    width : 375px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: auto;
+}
+
+
+
+/*top of screen nav*/
+
 
 h1 {
-  font-size: 1.5em;  /*top of screen nav*/
+  font-size: 1.3em;  
 }
-
-h2 {   /*black nav above list*/
-    background-color: black;  
-    color: white;
-    font-size: 20px;  
-}
-
-
 
 
 .topnavi {
     text-align: center;
     align-items: baseline;
+    margin: auto;
+    padding: 10px;
         
 }
 
 .arrow {
+    display: inline-block;
     float: left;
 }
 
-.hbar {    /*need help with hamburger bar alignment*/
+
+.menu {    /*need help with hamburger bar alignment*/
+    display: inline-block;
+    float: right;
+
+    
+}
+
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.blacknavi {
+    color: white;
+    font-size: 1em;  
+    background-color: black;  
+    padding: 10px;
     
 
 }
@@ -38,6 +65,16 @@ h2 {   /*black nav above list*/
 
 
 
+
+tr: nth-child(1)
+    {
+        background-color: darkgray;
+    }
+
+tr:nth-child(2)
+	{
+		background-color: lightgray;
+	}
 
 
 
@@ -53,16 +90,6 @@ h2 {   /*black nav above list*/
   background-size: cover;
 
 
-}
-
-
-
-
-.content {
-    width : 375px;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin: auto;
 }
 
 

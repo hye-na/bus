@@ -2,19 +2,23 @@
   box-sizing: border-box;
 }
 
-h0, h1, h2, h3 {
+h0, h1, h2, h3, body {
      font-family: 'Roboto', sans-serif;
 }
- 
+
 
 .mainlist, .topnavi, .map, .busstop, .content {
     width : 375px;
     margin-left: 50%;
     margin-right: 50%;
     margin: auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
-
+.arrow {
+    color: #6666ff;
+}
 
 /*top of screen nav*/
 
@@ -51,16 +55,13 @@ h1 {
 
 
 .busstop {
-    color: white;
+    color: #f0fff0;
     font-size: 1em;  
     background-color: black;  
-    padding: 10px;
+    padding: 15px;
 }
 
 
-.th:hover {
-    background-color: lightpink;
-}
 
 
 ///*table body*////
@@ -75,7 +76,7 @@ h1 {
 .direction {
     background-color: #aabbcc;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 19px;
     padding: 10px;
 }
 
@@ -83,17 +84,28 @@ h1 {
     display: table-row;
 }
 
+.tCell {
+    font-size: 17px
+}
+
 .list-heading, .subheading {
     display: table-cell;
+    font-weight: bold;
     width: 375px;
-    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
 }
 
 .list-heading {
     display: table-header-group;
     background-color: #ddeeff;
     font-weight: bold;
-    padding: 20px;
+    margin-left: 20px;
+   
+    
 }
 
 

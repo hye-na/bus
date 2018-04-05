@@ -5,8 +5,9 @@
 h0, h1, h2, h3 {
      font-family: 'Roboto', sans-serif;
 }
+ 
 
-.mainlist, .topnavi, .map, .blacknavi {
+.mainlist, .topnavi, .map, .busstop, .content {
     width : 375px;
     margin-left: 50%;
     margin-right: 50%;
@@ -16,7 +17,6 @@ h0, h1, h2, h3 {
 
 
 /*top of screen nav*/
-
 
 h1 {
   font-size: 1.3em;  
@@ -37,11 +37,9 @@ h1 {
 }
 
 
-.menu {    /*need help with hamburger bar alignment*/
+.menu {    
     display: inline-block;
     float: right;
-
-    
 }
 
 
@@ -52,81 +50,60 @@ h1 {
 }
 
 
-
-.blacknavi {
+.busstop {
     color: white;
     font-size: 1em;  
     background-color: black;  
     padding: 10px;
-    
-
 }
 
 
-
-
-
-tr: nth-child(1)
-    {
-        background-color: darkgray;
-    }
-
-tr:nth-child(2)
-	{
-		background-color: lightgray;
-	}
-
-
-
-
+.th:hover {
+    background-color: lightpink;
+}
 
 
 ///*table body*////
 
+.table {
+    display: table;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px;  /*why border not working*/
+}
 
-.screen {
-    background-image: url(../images/bb_screen.png);
-    background-repeat: no-repeat;
-  background-size: cover;
+.direction {
+    background-color: #aabbcc;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 10px;
+}
 
+.tRow {
+    display: table-row;
+}
 
+.list-heading, .subheading {
+    display: table-cell;
+    width: 375px;
+    padding: 10px;
+}
+
+.list-heading {
+    display: table-header-group;
+    background-color: #ddeeff;
+    font-weight: bold;
+    padding: 20px;
 }
 
 
-table {
-  table-layout: fixed;
-    margin: auto;
-    border-collapse: collapse;
-    border-width: 5px solid #8E8E93;
-    border-bottom-width: 1px;
+.tCell {
+    display: table-cell;
+    padding: 20px;
+    margin: 0;
+     
 }
 
-
-tbody td {
-  text-align: center;
-}
-
-    
-th {
-  letter-spacing: 2px;
-}
-
-td {
-  letter-spacing: 1px;
-}
-
-th, td {
-  padding: 20px;
-
-
-}
-
-
-
-
-
-
-
-.content:hover {
-    background-color: lightpink;
+.list-body {
+    display: table-row-group;
 }
